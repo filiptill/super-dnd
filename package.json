@@ -1,0 +1,30 @@
+{
+  "name": "super-dnd",
+  "version": "1.0.0",
+  "description": "A modern, smooth, and lightweight drag-and-drop library for React with Framer Motion animations.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "lint": "eslint src --fix"
+  },  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "framer-motion": "^12.4.1",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "eslint": "^9.20.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2",
+    "rollup": "^4.34.6",
+    "typescript": "^5.7.3"
+  }
+}
